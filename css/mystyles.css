@@ -1,4 +1,12 @@
 /* Styles for MyGolfStats */
+/* Palette
+#055508    5,85,8       Dark Green
+#238926    35,137,38    Med Green
+#89d85e    137,216,94   Light Green
+#f4e9c9    244,233,201  Sand Trap Off-White
+#006e89    0,110,137    Water Blue
+#57a5c9    87,165,201   Sky Blue
+*/
 
 /* Homepage */
 #home {
@@ -14,15 +22,20 @@
 }
 
 /* Main buttons on homepage */
-#home a:nth-of-type(-n+3) {
+#home .ui-content a {
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/* Help button on homepage */
-#home a[href='#help'] {
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
+/* Clubs icon */
+.ui-icon-clubs {
+	background-image: url(../images/clubs_icon.png);
+	background-size: 18px 18px;
+}
+
+/* Chart icon */
+.ui-icon-chart {
+	background-image: url(../images/chart_icon.png);
+	background-size: 18px 18px;
 }
