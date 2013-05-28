@@ -1,4 +1,4 @@
-MyGolfStats
+MyGolfFacts
 ===================
 
 Purpose
