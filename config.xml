@@ -21,7 +21,7 @@
     <icon src="icon.png" />
     
     <!-- App splash screen -->
-    <gap:splash src="splash.png" />
+    <!-- <gap:splash src="splash.png" /> -->
     
     <!-- PhoneGap Version -->
     <preference name="phonegap-version" value="2.7.0" />
@@ -30,7 +30,7 @@
     <preference name="orientation" value="portrait" />
     
     <!-- PhoneGap Features this app uses: -->
-    <feature name="http://api.phonegap.com/1.0/device" /> <!-- device ready permissions -->
+    <feature name="http://api.phonegap.com/1.0/network"/> <!-- network permissions -->
     <feature name="http://api.phonegap.com/1.0/file" /> <!-- file write permissions -->
 
 </widget>
