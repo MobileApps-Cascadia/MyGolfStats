@@ -39,3 +39,54 @@
 	background-image: url(../images/chart_icon.png);
 	background-size: 18px 18px;
 }
+
+/* Settings Page */
+#settings legend {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+/* Header on Current Hole and Scorecard Pages */
+#curr_hole > div[data-role="header"] > p:first-child,
+#scorecard > div[data-role="header"] > p:first-child {
+	width: 60%;
+	margin-left: 10px;
+	margin-bottom: .3em;
+}
+
+#curr_hole > div[data-role="header"] > p:nth-child(2),
+#scorecard > div[data-role="header"] > p:nth-child(2) {
+	width: 60%;
+	margin-top: 0;
+	font-size: .8em;
+	text-align: right;
+}
+
+#curr_hole > div[data-role="header"] > a,
+#scorecard > div[data-role="header"] > a {
+	margin-top: 1em;
+}
+
+/* curr_hole h1 - i.e. Hole 1 */
+#curr_hole > div[data-role="content"] > h1 {
+	margin: 0;
+}
+
+/* myscore slider label */
+label[for="myscore_slider"] {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+/* Stats Container on curr_hole screen */
+#stats_container legend {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+
+
+
+	
