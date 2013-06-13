@@ -24,7 +24,7 @@
     <gap:splash src="splash.png" />
     
     <!-- PhoneGap Version -->
-    <preference name="phonegap-version" value="2.8.0" />
+    <preference name="phonegap-version" value="2.7.0" />
     
     <!-- Allow portrait orientation only -->
     <preference name="orientation" value="portrait" />
